@@ -60,7 +60,7 @@ function Profile() {
 
   function logoutUser() {
     dispatch(LogoutData());
-    navigate('/login'); 
+    navigate('/login');
   }
 
   return (
@@ -83,6 +83,7 @@ function Profile() {
                 <button className="profile-edit-btn" onClick={logoutUser}>Logout</button>
               </Link>
             </div>
+            <h3 >{profile.bio || 'Loading...'}</h3>
           </div>
         </header>
         <div className="profile-stats">
