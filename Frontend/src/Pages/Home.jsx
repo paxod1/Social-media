@@ -7,6 +7,9 @@ import DownNav from './DownNav';
 import Upnavbar from './Upnavbar';
 import Storys from './Storys.jsx';
 import { TokenRequest } from '../AxiosCreate.jsx';
+import OtherUserProfile from './OtherUserProfile.jsx';
+import { useNavigate } from 'react-router-dom';
+
 
 function Home() {
   const [profile, setProfile] = useState({});
@@ -15,6 +18,7 @@ function Home() {
   const [showCommentInput, setShowCommentInput] = useState(null);
   const [currentComment, setCurrentComment] = useState("");
   let ID = null;
+  const Navigate = useNavigate()
   if (MyData) {
     ID = MyData.id;
   }
@@ -68,6 +72,9 @@ function Home() {
       console.error('Error adding comment:', error);
     }
   };
+  const openOtherProfile = (OtherProfileId) => {
+    Navigate('/OtherUserProfile', { state: { OtherProfileId } });
+  };
 
   async function LikedToPost(Postid, index) {
     try {
@@ -82,6 +89,8 @@ function Home() {
       console.log(err);
     }
   }
+
+
 
   return (
     <>
@@ -111,8 +120,9 @@ function Home() {
             {allPosts.length > 0 ? (
               allPosts.map((data, index) => (
                 <div className="feed" key={index}>
-                  <div className="post-header">
+                  <div className="post-header"onClick={() => openOtherProfile(data.userId)}>
                     <img
+                      
                       className="post-avatar"
                       src={`/Images/${data.ProfilePic}`}
                       alt="avatar"
@@ -187,3 +197,7 @@ function Home() {
 }
 
 export default Home;
+
+
+
+

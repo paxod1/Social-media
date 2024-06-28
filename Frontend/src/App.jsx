@@ -12,6 +12,7 @@ import LoginAdmin from './Admin/LoginAdmin.jsx'
 import AdminHome from './Admin/AdminHome.jsx'
 import AllUsers from './Admin/AllUsers.jsx'
 import AddAdmin from './Admin/AddAdmin.jsx'
+import OtherUserProfile from './Pages/OtherUserProfile.jsx'
 
 
 function App() {
@@ -57,8 +58,12 @@ function App() {
       path: "/AddAdmin",
       element:admintoken?< AddAdmin/>:<LoginAdmin/>
     },
+    {
+      path: "/OtherUserProfile",
+      element:token?<OtherUserProfile/>:<Login/>
+    },
   ])
-  
+ 
  
  
   
