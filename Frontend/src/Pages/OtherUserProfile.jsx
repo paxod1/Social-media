@@ -85,10 +85,10 @@ function OtherUserProfile() {
           <div className="profile-info">
             <h2 className="profile-username">{profile.username || 'Loading...'}</h2>
             <div className="profile-actions">
-              <Link to="#" style={{ textDecoration: 'none' }}>
+              <Link  style={{ textDecoration: 'none' }}>
                 <button className="profile-edit-btn">Follow</button>
               </Link>
-              <Link to="#" style={{ textDecoration: 'none' }}>
+              <Link  style={{ textDecoration: 'none' }}>
                 <button className="profile-edit-btn">Message</button>
               </Link>
             </div>
