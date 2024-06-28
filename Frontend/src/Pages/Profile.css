@@ -1,0 +1,157 @@
+
+
+
+.profile-page {
+  display: flex;
+}
+
+.profile-container {
+  flex: 1;
+  padding: 20px;
+}
+
+
+.profile-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;
+}
+
+.profile-info {
+  margin-left: 20px;
+}
+
+.profile-username {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profile-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-edit-btn,
+.profile-logout-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.profile-edit-btn {
+  background-color: #3897f0;
+  color: white;
+}
+
+.profile-logout-btn {
+  background-color: #ed4956;
+  color: white;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 10px 0;
+}
+
+.profile-stat {
+  text-align: center;
+}
+
+.profile-stat-number {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.profile-stat-label {
+  color: #8e8e8e;
+}
+
+.profile-custom-link {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.profile-custom-file-label {
+  background-color: #3897f0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.home-profile {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.home-inner-profile {
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.post-profile {
+  position: relative;
+}
+
+.post-image-profile {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.post-footer-profile {
+  padding: 10px;
+}
+
+.like-button-profile,
+.comment-button-profile {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #3897f0;
+  font-size: 1em;
+}
+
+.post-likes-profile,
+.post-caption-profile {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+@media screen and (max-width: 900px) {
+  .profile-header {
+
+  }
+  
+  .profile-pic{
+    float: left;
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .SideNav {
+    display: none;
+  }
+
+  .DownNav {
+    display: block;
+  }
+
+
+}

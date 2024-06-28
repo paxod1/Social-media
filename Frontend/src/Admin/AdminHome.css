@@ -1,0 +1,63 @@
+
+.Admin-main-home{
+    margin-top: 5%;
+}
+.Admin-home {
+    margin-left: 30%;
+    margin-bottom: 0%;
+    
+  }
+  .Admin-feed {
+    margin-top: 10px;
+    width: 50%;
+  }
+  
+.Admin-post {
+    margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .Admin-post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  
+  }
+  
+  .Admin-post-avatar {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+  }
+  
+  .Admin-post-username {
+    font-weight: bold;
+  }
+  
+  .Admin-post-image {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .Admin-post-footer {
+    padding: 10px;
+  }
+  
+  .Admin-like-button,
+  .Admin-comment-button {
+    background: none;
+    border: none;
+    color: #3897f0;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .Admin-post-likes,
+  .Admin-post-caption {
+    margin-top: 10px;
+  }
+  

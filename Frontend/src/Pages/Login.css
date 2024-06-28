@@ -1,0 +1,105 @@
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fafafa;
+  }
+  
+  .login-box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin-bottom: 20px;
+  }
+  
+  .login-logo {
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yM/r/8n91YnfPq0s.png);
+    background-position: 0px -52px;
+    background-size: auto;
+    width: 175px;
+    height: 51px;
+    background-repeat: no-repeat;
+    display: inline-block;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    background-color: #fafafa;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+  }
+  
+  .or {
+    margin: 0 10px;
+    color: #8e8e8e;
+    font-weight: 600;
+  }
+  
+  .login-with-facebook {
+    display: flex;
+    align-items: center;
+    color: #385185;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .facebook-logo {
+    width: 20px;
+    margin-right: 8px;
+  }
+  
+  .forgot-password {
+    color: #00376b;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .signup-box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+  }
+  
+  .signup-box a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  

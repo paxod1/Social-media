@@ -1,0 +1,50 @@
+/* upnavbar.css */
+
+.up-nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    z-index: 1000;
+  }
+  
+  .nav-logo {
+    flex: 1;
+    display: flex;
+    float: left;
+    
+  }
+  .logo-icon {
+    height: 30px; 
+    width: auto;
+  }
+  
+
+  .nav-icons {
+    display: flex;
+    align-items: center;
+    margin-right:5% ;
+  }
+  
+  .nav-icon {
+    margin-left: 20px;
+    color: #262626;
+    text-decoration: none;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    fill: #262626;
+  }
+  
+  .nav-icon:active .icon, .nav-icon:hover .icon {
+    fill: #000;
+  }
+  

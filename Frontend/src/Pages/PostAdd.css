@@ -1,0 +1,84 @@
+.post-add-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+  }
+  
+  .post-add-form {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .image-upload {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border: 2px dashed #dbdbdb;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-upload-label {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+  
+  .image-upload-placeholder {
+    font-size: 48px;
+    color: #dbdbdb;
+  }
+  
+  .image-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .image-upload-input {
+    display: none;
+  }
+  
+  .post-bio-input {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #dbdbdb;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    resize: none;
+  }
+  
+  .submit-button {
+    background-color: #0095f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #007bb5;
+  }
+  

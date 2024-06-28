@@ -1,0 +1,71 @@
+
+.admin-profile-picture img {
+    width: 8%;
+    height: 30%;
+    border-radius: 100%;
+    border: 2px solid #ddd;
+}
+.maindivOfProfiles {
+    margin-top: 55px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.admin-profilebox {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 3px;
+    padding: 10px;
+    color: #211f1f;
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin-top: 3px;
+    border-radius: 5px;
+
+}
+
+
+.profile-details button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.profile-header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.profile-details {
+    flex: 2;
+}
+
+.profile-details h6 {
+    margin: 0;
+    color: #333;
+}
+
+.profile-details p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.profile-details button:hover {
+    background-color: #218838;
+}
+
+.admin-Heading {
+    font-size: 20px;
+}
