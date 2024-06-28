@@ -132,6 +132,7 @@ function Home() {
                       }}
                     />
                     <span className="post-username">{data.username}</span>
+                    <h6 className='sethover'>click to see there profile</h6>
                   </div>
                   <div className="post">
                     <img

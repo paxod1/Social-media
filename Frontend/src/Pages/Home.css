@@ -52,6 +52,13 @@ body {
   margin-top: 0px;
   position: relative;
 }
+.sethover {
+  display: none;
+}
+
+.post-header:hover .sethover {
+  display: block;
+}
 
 .progress-bar {
   height: 100%;
