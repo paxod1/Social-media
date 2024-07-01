@@ -102,7 +102,6 @@
     flex-direction: column;
     align-self: flex-end;
     background-color: #4557fd;
-    color: #333;
     float: right;
     margin: 10px;
     width: 20%;
@@ -116,11 +115,11 @@
     margin: 10px;
     align-self: flex-start;
     background-color: #bcbcbc;
-    color: #333;
+    color: #191919;
     float: left;
     width: 20%;
     height: auto;
-    color: white;
+   
   }
   
   .message-content {

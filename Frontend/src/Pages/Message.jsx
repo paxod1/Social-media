@@ -66,7 +66,7 @@ function Message() {
     }
   };
 
-  const handleUserSelect = (user) => {
+   const handleUserSelect = (user) => {
     setSelectedUser(user);
     setMessages([]);
     const roomId = getRoomId(userId, user._id);
