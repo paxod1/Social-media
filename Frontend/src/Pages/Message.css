@@ -1,0 +1,167 @@
+.message-container {
+    display: flex;
+    height: 100vh;
+  }
+  .title-options {
+    display: none;
+  }
+
+  .show-name-insta {
+    display: none;
+  }
+
+  .logo-insta {
+    display: inline-block;
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .side-nav {
+    width: 80px;
+  }
+
+  .logo img {
+    max-width: 80px;
+    margin-bottom: 20px;
+  }
+
+  nav a {
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  nav a i {
+    margin-right: 0;
+    font-size: 24px;
+  }
+
+  .icons {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+
+
+  .users-list {
+    margin-left: 5%;
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+  }
+  
+  
+  .users-list h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .users-list div {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .chat-area {
+    flex: 3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-area h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .message-list {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message-item {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    max-width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    flex-direction: column;
+  }
+  
+  .my-message {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    background-color: #4557fd;
+    color: #333;
+    float: right;
+    margin: 10px;
+    width: 20%;
+    height: auto;
+    color: white;
+  }
+
+  .other-message {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-self: flex-start;
+    background-color: #bcbcbc;
+    color: #333;
+    float: left;
+    width: 20%;
+    height: auto;
+    color: white;
+  }
+  
+  .message-content {
+    word-wrap: break-word;
+  }
+  
+  .message-timestamp {
+    font-size: 12px;
+    color: #dadada;
+    align-self: flex-end;
+    margin-top: 5px;
+  }
+  
+  .message-input {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .message-input input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+  }
+  
+  .message-input button {
+    padding: 12px 24px;
+    margin-left: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0095F6;
+    color: white;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .message-input button:hover {
+    background-color: #1A91DA;
+  }
+  

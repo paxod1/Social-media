@@ -13,6 +13,7 @@ import AdminHome from './Admin/AdminHome.jsx'
 import AllUsers from './Admin/AllUsers.jsx'
 import AddAdmin from './Admin/AddAdmin.jsx'
 import OtherUserProfile from './Pages/OtherUserProfile.jsx'
+import Message from './Pages/Message.jsx'
 
 
 function App() {
@@ -62,14 +63,12 @@ function App() {
       path: "/OtherUserProfile",
       element:token?<OtherUserProfile/>:<Login/>
     },
+    {
+      path: "/Message",
+      element:token?<Message/>:<Login/>
+    },
   ])
- 
- 
- 
   
-  
-  
-
   return (
     <>
       <RouterProvider router={app} />
