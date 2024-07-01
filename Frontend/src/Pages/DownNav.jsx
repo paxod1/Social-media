@@ -19,7 +19,7 @@ function DownNav() {
                     <BiMoviePlay className='icons' />
                 </Link>
              
-                <Link to={'/Profile'}  className="nav-item">
+                <Link to={'/Message'}  className="nav-item">
 
                     <TbMessageChatbot className='icons' />
                 </Link>

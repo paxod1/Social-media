@@ -88,7 +88,7 @@ function OtherUserProfile() {
               <Link  style={{ textDecoration: 'none' }}>
                 <button className="profile-edit-btn">Follow</button>
               </Link>
-              <Link  style={{ textDecoration: 'none' }}>
+              <Link to={'/Message'}  style={{ textDecoration: 'none' }}>
                 <button className="profile-edit-btn">Message</button>
               </Link>
             </div>

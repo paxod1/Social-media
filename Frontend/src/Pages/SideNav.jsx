@@ -40,7 +40,7 @@ function SideNav() {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink  activeClassName="active">
+                            <NavLink to={'/Message'} activeClassName="active">
                             <TbMessageChatbot className='icons'/><div className='title-options'>Messages</div> 
                             </NavLink>
                         </li>
