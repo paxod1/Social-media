@@ -1,0 +1,39 @@
+
+
+.down-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    border-top: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+    color: #262626;
+    text-decoration: none;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    fill: #262626;
+  }
+  
+  .nav-item:active .icon, .nav-item:hover .icon {
+    fill: #000;
+  }
+  
+  .nav-item.active .icon {
+    fill: #000;
+  }
+  
